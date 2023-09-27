@@ -20,14 +20,15 @@ want the code included simply contact me.
 - [__Bagnon_Core__][addon-bagnon]: The core addon required for Bagnon
 - [__Bagnon_Options__][addon-bagnon]: Configuration menu for Bagnon
 - [__Bagnon_Spot__][addon-bagnon]: Search functionality for Bagnon
-- [__Cleanup__][addon-cleanup]: Adds a sorting button for
+- [__Cleanup__][addon-cleanup]: Adds a UI button for
   [__SortBags__][addon-sortbags]
+- [__Clique__][addon-clique]: Click and mouseover casting configuration
 - [__FruityLoots__][addon-fruityloots]: Automatically positions the items in
   the loot window under the cursor
 - [__Gatherer__][addon-gatherer]: Remembers the positions of plants, ore
   deposits and treasure chests and displays them on the map
-- [__HealBot__][addon-healbot]: A mouseover casting addon intended for
-  group/raid healing
+- [__NotGrid__][addon-notgrid]: Party and raid frame addon based off of the
+  original _Grid_ addon
 - [__pfQuest__][addon-pfquest]: A quest helper and database addon
 - [__ShaguTweaks__][addon-shagutweaks]: A collection of tweaks and enhancements
   to the default UI
@@ -39,9 +40,10 @@ want the code included simply contact me.
 [addon-align]: https://legacy-wow.com/vanilla-addons/align/
 [addon-bagnon]: https://vanillawowaddons.com/download/bagnon/
 [addon-cleanup]: https://github.com/shirsig/Cleanup-vanilla
+[addon-clique]: https://vanillawowaddons.com/download/clique/
 [addon-fruityloots]: https://legacy-wow.com/vanilla-addons/fruityloots/
 [addon-gatherer]: https://github.com/jsb/Gatherer
-[addon-healbot]: https://legacy-wow.com/vanilla-addons/healbot/
+[addon-notgrid]: https://github.com/gnwl/NotGrid
 [addon-pfquest]: https://github.com/shagu/pfQuest
 [addon-shagutweaks]: https://github.com/shagu/ShaguTweaks
 [addon-sortbags]: https://github.com/shirsig/SortBags-vanilla
