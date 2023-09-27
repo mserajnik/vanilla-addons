@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: Cleanup
+## Notes: Sorts and stacks your items
+## Author: shirsig
+## Dependencies: SortBags
+## SavedVariablesPerCharacter: Cleanup
+Cleanup.lua
