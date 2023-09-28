@@ -15,11 +15,6 @@ want the code included simply contact me.
 ## Addons
 
 - [__Align__][addon-align]: Displays a grid (via `/align`) to align UI elements
-- [__Bagnon__][addon-bagnon]: A bag replacement addon that combines all bags
-  into a single one
-- [__Bagnon_Core__][addon-bagnon]: The core addon required for Bagnon
-- [__Bagnon_Options__][addon-bagnon]: Configuration menu for Bagnon
-- [__Bagnon_Spot__][addon-bagnon]: Search functionality for Bagnon
 - [__Cleanup__][addon-cleanup]: Adds a UI button for
   [__SortBags__][addon-sortbags]
 - [__Clique__][addon-clique]: Click and mouseover casting configuration
@@ -29,6 +24,8 @@ want the code included simply contact me.
   deposits and treasure chests and displays them on the map
 - [__NotGrid__][addon-notgrid]: Party and raid frame addon based off of the
   original _Grid_ addon
+- [__OneBag__][addon-onebag]: A bag replacement addon that combines all bags
+  into one frame
 - [__pfQuest__][addon-pfquest]: A quest helper and database addon
 - [__ShaguTweaks__][addon-shagutweaks]: A collection of tweaks and enhancements
   to the default UI
@@ -38,12 +35,12 @@ want the code included simply contact me.
   replacement intended to increase immersion
 
 [addon-align]: https://legacy-wow.com/vanilla-addons/align/
-[addon-bagnon]: https://vanillawowaddons.com/download/bagnon/
 [addon-cleanup]: https://github.com/shirsig/Cleanup-vanilla
 [addon-clique]: https://vanillawowaddons.com/download/clique/
 [addon-fruityloots]: https://legacy-wow.com/vanilla-addons/fruityloots/
 [addon-gatherer]: https://github.com/jsb/Gatherer
 [addon-notgrid]: https://github.com/gnwl/NotGrid
+[addon-onebag]: https://vanillawowaddons.com/download/onebag/
 [addon-pfquest]: https://github.com/shagu/pfQuest
 [addon-shagutweaks]: https://github.com/shagu/ShaguTweaks
 [addon-sortbags]: https://github.com/shirsig/SortBags-vanilla
