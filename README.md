@@ -14,7 +14,9 @@ want the code included simply contact me.
 
 ## Addons
 
-- [__Align__][addon-align]: Displays a grid (via `/align`) to align UI elements
+- [__BetterAlign__][addon-betteralign]: Displays a grid and draggable helper
+  bars to align UI elements; careful, newer commits than the one I linked to
+  are for Classic instead of Vanilla
 - [__Cleanup__][addon-cleanup]: Adds a UI button for
   [__SortBags__][addon-sortbags]
 - [__Clique__][addon-clique]: Click and mouseover casting configuration
@@ -34,7 +36,7 @@ want the code included simply contact me.
 - [__VanillaStoryline__][addon-vanillastoryline]: A gossip/quest dialog
   replacement intended to increase immersion
 
-[addon-align]: https://legacy-wow.com/vanilla-addons/align/
+[addon-betteralign]: https://github.com/DennisWG/BetterAlign/tree/8840ee2dad218d73e5ae8b23979f552f3c2c56cd
 [addon-cleanup]: https://github.com/shirsig/Cleanup-vanilla
 [addon-clique]: https://vanillawowaddons.com/download/clique/
 [addon-fruityloots]: https://legacy-wow.com/vanilla-addons/fruityloots/
