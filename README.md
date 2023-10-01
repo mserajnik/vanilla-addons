@@ -14,6 +14,11 @@ want the code included simply contact me.
 
 ## Addons
 
+- [__Atlas__][addon-atlas]: An instance map browser
+- [__AtlasLoot__][addon-atlas]: An addition to [__Atlas__][addon-atlas] to show
+  boss loot tables as well as crafting information and various collections
+- [__AtlasQuest__][addon-atlas]: An addition to [__Atlas__][addon-atlas] to
+  show dungeon, raid and battleground quests
 - [__BearCastBar__][addon-bearcastbar]: A customizable cast bar replacement and
   swing timer
 - [__BetterAlign__][addon-betteralign]: Displays a grid and draggable helper
@@ -38,6 +43,7 @@ want the code included simply contact me.
 - [__VanillaStoryline__][addon-vanillastoryline]: A gossip/quest dialog
   replacement intended to increase immersion
 
+[addon-atlas]: https://github.com/laytya/Atlas
 [addon-bearcastbar]: https://github.com/Fiskehatt/BearCastBar
 [addon-betteralign]: https://github.com/DennisWG/BetterAlign/tree/8840ee2dad218d73e5ae8b23979f552f3c2c56cd
 [addon-cleanup]: https://github.com/shirsig/Cleanup-vanilla
