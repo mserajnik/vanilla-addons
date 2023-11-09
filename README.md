@@ -31,8 +31,6 @@ want the code included simply contact me.
   the loot window under the cursor
 - [__Gatherer__][addon-gatherer]: Remembers the positions of plants, ore
   deposits and treasure chests and displays them on the map
-- [__NotGrid__][addon-notgrid]: Party and raid frame addon based off of the
-  original _Grid_ addon
 - [__OneBag__][addon-onebag]: A bag replacement addon that combines all bags
   into one frame
 - [__pfQuest__][addon-pfquest]: A quest helper and database addon
@@ -50,7 +48,6 @@ want the code included simply contact me.
 [addon-clique]: https://vanillawowaddons.com/download/clique/
 [addon-fruityloots]: https://legacy-wow.com/vanilla-addons/fruityloots/
 [addon-gatherer]: https://github.com/jsb/Gatherer
-[addon-notgrid]: https://github.com/gnwl/NotGrid
 [addon-onebag]: https://vanillawowaddons.com/download/onebag/
 [addon-pfquest]: https://github.com/shagu/pfQuest
 [addon-shagutweaks]: https://github.com/shagu/ShaguTweaks
