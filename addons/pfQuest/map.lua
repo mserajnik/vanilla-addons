@@ -532,6 +532,22 @@ function pfMap:AddNode(meta)
   pfMap.queue_update = GetTime()
 end
 
+function pfMap:GetNodes(addon, title)
+  local nodes = {}
+
+  if title and pfMap.nodes[addon] then
+    for map, foo in pairs(pfMap.nodes[addon]) do
+      for coords, node in pairs(pfMap.nodes[addon][map]) do
+        if pfMap.nodes[addon][map][coords][title] then
+          table.insert(nodes, pfMap.nodes[addon][map][coords][title])
+        end
+      end
+    end
+  end
+
+  return nodes
+end
+
 function pfMap:DeleteNode(addon, title)
   -- remove tooltips
   if not addon then
@@ -716,6 +732,7 @@ function pfMap:UpdateNode(frame, node, color, obj)
       frame.quest       = tab.quest
       frame.qlvl        = tab.qlvl
       frame.itemreq     = tab.itemreq
+      frame.arrow       = tab.arrow
 
       if pfQuest_config["spawncolors"] == "1" then
         frame.color = tab.spawn or tab.title
@@ -811,7 +828,8 @@ function pfMap:UpdateNodes()
         if ( pfQuest_config["routecluster"] == "1" and pfMap.pins[i].layer >= 9 ) or
           ( pfQuest_config["routeender"] == "1" and pfMap.pins[i].layer == 4) or
           ( pfQuest_config["routestarter"] == "1" and pfMap.pins[i].layer == 1 and pfMap.pins[i].texture) or
-          ( pfQuest_config["routestarter"] == "1" and pfMap.pins[i].layer == 2)
+          ( pfQuest_config["routestarter"] == "1" and pfMap.pins[i].layer == 2) or
+          pfMap.pins[i].arrow == true
         then
           pfQuest.route:AddPoint({ x, y, pfMap.pins[i] })
         end
