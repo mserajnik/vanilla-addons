@@ -19,18 +19,17 @@ want the code included simply contact me.
   boss loot tables as well as crafting information and various collections
 - [__AtlasQuest__][addon-atlas]: An addition to [__Atlas__][addon-atlas] to
   show dungeon, raid and battleground quests
-- [__BearCastBar__][addon-bearcastbar]: A customizable cast bar replacement and
-  swing timer
 - [__BetterAlign__][addon-betteralign]: Displays a grid and draggable helper
   bars to align UI elements; careful, newer commits than the one I linked to
   are for Classic instead of Vanilla
+- [__CastingBarTime__][addon-castingbartime]: A simple addon to display the
+  casting time when using the default cast bar
 - [__Cleanup__][addon-cleanup]: Adds a UI button for
   [__SortBags__][addon-sortbags]
 - [__Clique__][addon-clique]: Click and mouseover casting configuration
 - [__FruityLoots__][addon-fruityloots]: Automatically positions the items in
   the loot window under the cursor; must not be used in conjunction with
-  [__ShaguController__][addon-shagucontroller] (since that also includes this
-  feature)
+  _ShaguController_ (since that also includes this feature)
 - [__Gatherer__][addon-gatherer]: Remembers the positions of plants, ore
   deposits and treasure chests and displays them on the map
 - [__OneBag__][addon-onebag]: A bag replacement addon that combines all bags
@@ -46,8 +45,8 @@ want the code included simply contact me.
   replacement intended to increase immersion
 
 [addon-atlas]: https://github.com/laytya/Atlas
-[addon-bearcastbar]: https://github.com/Fiskehatt/BearCastBar
 [addon-betteralign]: https://github.com/DennisWG/BetterAlign/tree/8840ee2dad218d73e5ae8b23979f552f3c2c56cd
+[addon-castingbartime]: https://github.com/crazypoultry/Wow1.12.1_Addons_Collection/tree/master/CastingBarTime_v0.1/CastingBarTime
 [addon-cleanup]: https://github.com/shirsig/Cleanup-vanilla
 [addon-clique]: https://vanillawowaddons.com/download/clique/
 [addon-fruityloots]: https://legacy-wow.com/vanilla-addons/fruityloots/
