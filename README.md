@@ -27,7 +27,8 @@ want the code included simply contact me.
 - [__Clique__][addon-clique]: Click and mouseover casting configuration
 - [__FruityLoots__][addon-fruityloots]: Automatically positions the items in
   the loot window under the cursor; must not be used in conjunction with
-  _ShaguController_ (since that also includes this feature)
+  [__ShaguController__][addon-shagucontroller] (since that also includes this
+  feature)
 - [__Gatherer__][addon-gatherer]: Remembers the positions of plants, ore
   deposits and treasure chests and displays them on the map
 - [__OneBag__][addon-onebag]: A bag replacement addon that combines all bags
@@ -37,8 +38,10 @@ want the code included simply contact me.
   interface to be more controller friendly, made with the Steam Deck in mind
 - [__ShaguTweaks__][addon-shagutweaks]: A collection of tweaks and enhancements
   to the default UI
+- [__ShaguTweaks-mods__][addon-shagutweaks-mods]: Adds additional tweaks and
+  enhancements to [__ShaguTweaks__][addon-shagutweaks]
 - [__SortBags__][addon-sortbags]: An addon to automatically sort bags and bank
-  contents (pairs with [__Cleanup__][addon-cleanup])
+  contents
 - [__VanillaStoryline__][addon-vanillastoryline]: A gossip/quest dialog
   replacement intended to increase immersion
 
@@ -51,6 +54,7 @@ want the code included simply contact me.
 [addon-onebag]: https://vanillawowaddons.com/download/onebag/
 [addon-pfquest]: https://github.com/shagu/pfQuest
 [addon-shagutweaks]: https://github.com/shagu/ShaguTweaks
+[addon-shagutweaks-mods]: https://github.com/GryllsAddons/ShaguTweaks-mods
 [addon-shagucontroller]: https://github.com/shagu/ShaguController
 [addon-sortbags]: https://github.com/shirsig/SortBags-vanilla
 [addon-vanillastoryline]: https://github.com/tubtubs/VanillaStoryline
