@@ -22,8 +22,6 @@ want the code included simply contact me.
 - [__BetterAlign__][addon-betteralign]: Displays a grid and draggable helper
   bars to align UI elements; careful, newer commits than the one I linked to
   are for Classic instead of Vanilla
-- [__CastingBarTime__][addon-castingbartime]: A simple addon to display the
-  casting time when using the default cast bar
 - [__Cleanup__][addon-cleanup]: Adds a UI button for
   [__SortBags__][addon-sortbags]
 - [__Clique__][addon-clique]: Click and mouseover casting configuration
@@ -46,7 +44,6 @@ want the code included simply contact me.
 
 [addon-atlas]: https://github.com/laytya/Atlas
 [addon-betteralign]: https://github.com/DennisWG/BetterAlign/tree/8840ee2dad218d73e5ae8b23979f552f3c2c56cd
-[addon-castingbartime]: https://github.com/crazypoultry/Wow1.12.1_Addons_Collection/tree/master/CastingBarTime_v0.1/CastingBarTime
 [addon-cleanup]: https://github.com/shirsig/Cleanup-vanilla
 [addon-clique]: https://vanillawowaddons.com/download/clique/
 [addon-fruityloots]: https://legacy-wow.com/vanilla-addons/fruityloots/
