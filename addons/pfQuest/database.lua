@@ -414,6 +414,18 @@ function pfDatabase:ShowExtendedTooltip(id, tooltip, parent, anchor, offx, offy)
   end
 
   if data then
+    -- scan for active quests
+    local queststate = pfQuest_history[id] and 2 or 0
+    queststate = pfQuest.questlog[id] and 1 or queststate
+
+    if queststate == 0 then
+      tooltip:AddLine(pfQuest_Loc["You don't have this quest."] .. "\n\n", 1, .5, .5)
+    elseif queststate == 1 then
+      tooltip:AddLine(pfQuest_Loc["You are on this quest."] .. "\n\n", 1, 1, .5)
+    elseif queststate == 2 then
+      tooltip:AddLine(pfQuest_Loc["You already did this quest."] .. "\n\n", .5, 1, .5)
+    end
+
     -- quest start
     if data["start"] then
       for key, db in pairs({["U"]="units", ["O"]="objects", ["I"]="items"}) do
@@ -636,7 +648,7 @@ function pfDatabase:SearchAreaTriggerID(id, meta, maps, prio)
   for _, data in pairs(areatrigger[id]["coords"]) do
     local x, y, zone = unpack(data)
 
-    if zone > 0 then
+    if zone and zone > 0 then
       -- add all gathered data
       meta = meta or {}
       meta["spawn"] = pfQuest_Loc["Exploration Mark"]
