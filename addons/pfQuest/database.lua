@@ -349,7 +349,7 @@ pfDB.bitclasses = bitclasses
 
 function pfDatabase:IsFriendly(id)
   if id and units[id] and units[id].fac then
-    local faction = string.lower(UnitFactionGroup("player"))
+    local faction = string.lower(UnitFactionGroup("player") or "")
     faction = faction == "horde" and "H" or faction == "alliance" and "A" or "UNKNOWN"
 
     if string.find(units[id].fac, faction) then
@@ -1453,7 +1453,7 @@ function pfDatabase:GetQuestIDs(qid)
   if GetQuestLink then
     local questLink = GetQuestLink(qid)
       if questLink then
-      local _, _, id = strfind(questLink, "|c.*|Hquest:([%d]+):([%d]+)|h%[(.*)%]|h|r")
+      local _, _, id = strfind(questLink, "|c.*|Hquest:([%d]+):([-]?[%d]+)|h%[(.*)%]|h|r")
       if id then return { [1] = tonumber(id) } end
     end
   end

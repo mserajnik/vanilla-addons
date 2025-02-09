@@ -64,7 +64,7 @@ tracker:SetClampedToScreen(true)
 tracker:RegisterEvent("PLAYER_ENTERING_WORLD")
 tracker:SetScript("OnEvent", function()
   -- update font sizes according to config
-  fontsize = tonumber(pfQuest_config["trackerfontsize"])
+  fontsize = tonumber(pfQuest_config["trackerfontsize"]) or 12
   entryheight = ceil(fontsize*1.6)
 
   -- restore tracker state
@@ -75,7 +75,12 @@ tracker:SetScript("OnEvent", function()
   end
 end)
 
-tracker:SetScript("OnMouseDown",function() this:StartMoving() end)
+tracker:SetScript("OnMouseDown",function()
+  if not pfQuest_config.lock then
+    this:StartMoving()
+  end
+end)
+
 tracker:SetScript("OnMouseUp",function()
   this:StopMovingOrSizing()
   local anchor, x, y = pfUI.api.ConvertFrameAnchor(this, pfUI.api.GetBestAnchor(this))
