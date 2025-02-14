@@ -1,7 +1,0 @@
-## Interface: 11200
-## Title: SortBags
-## Notes: Sorts and stacks your items
-## Notes-ruRU: Сортирует и складывает ваши предметы
-## Author: shirsig
-## SavedVariablesPerCharacter: SortBagsRightToLeft
-SortBags.lua
