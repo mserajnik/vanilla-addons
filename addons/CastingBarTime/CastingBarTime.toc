@@ -1,8 +1,0 @@
-## Interface: 11200
-## Title: CastingBar Time v0.1
-## Notes: Displays remaining casting / channeling time
-## Author: lua@lumpn.de
-## SavedVariables:
-## OptionalDeps:
-## Dependencies:
-CastingBarTime.xml
